@@ -18,9 +18,8 @@ public class Calculadora {
 		return x/y;
 	
 	} catch (Exception e) {
-		//TODO: handle exception
-	}
 		return 0;
+	}
 		
 	}
     
