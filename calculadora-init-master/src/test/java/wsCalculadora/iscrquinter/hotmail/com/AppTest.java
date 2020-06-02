@@ -27,4 +27,10 @@ public class AppTest {
 
         assertTrue(c.multiplica(2,3)==6);
     }
+    @Test public void testDiv() {
+        Calculadora c = new Calculadora();
+
+        assertTrue(c.divide(12,4)==3);
+        assertTrue(c.divide(5,0)==0);
+    }
 }
