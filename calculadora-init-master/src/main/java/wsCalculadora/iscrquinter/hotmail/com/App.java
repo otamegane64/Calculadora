@@ -20,6 +20,7 @@ public class App {
         System.out.println("2+3=" + c.suma(2, 3));
         System.out.println("2-3=" + c.resta(2, 3));
         System.out.println("2*3=" + c.multiplica(2, 3));
+        System.out.println("sen 30= "+ c.seno(30));
         System.out.println("Autor: Ricardo Rafael Quintero Meza-ITC");
     }
 }

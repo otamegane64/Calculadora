@@ -2,6 +2,11 @@ package wsCalculadora.iscrquinter.hotmail.com.Calculadora;
 
 public class Calculadora {
 
+	public double seno(double x){
+		double y = Math.toRadians(x);
+		return Math.sin(y);
+
+	}
 	public double suma(double x, double y) {
 		return x + y;
 	}
@@ -20,6 +25,7 @@ public class Calculadora {
 	} catch (Exception e) {
 		return 0;
 	}
+	
 		
 	}
     
