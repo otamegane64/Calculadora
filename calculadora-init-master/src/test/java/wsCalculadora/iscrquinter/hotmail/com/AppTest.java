@@ -38,4 +38,9 @@ public class AppTest {
 
         assertTrue(c.seno(30)==Math.sin(Math.toRadians(30)));
     }
+    @Test public void testCos() {
+        Calculadora c = new Calculadora();
+
+        assertTrue(c.seno(90)==0);
+    }
 }
